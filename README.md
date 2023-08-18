@@ -150,8 +150,10 @@ Nach dem Start muss der angelötete LED-Streifen konfiguriert werden:
   * Enable automatic brightness limiter - an
   * Maximum Current - 2500 mA
   * LED voltage: 5 V
-  * LED outputs: WS281x, Color Order GRB, Length 49
-* Config - 2D Configuration
+  * LED outputs: WS281x, Color Order GRB (abhängig vom LED Strip auch RGB), Length 49
+  * Reversed (rotated 180°): on, wenn der Stecker unten rechts stehen soll.
+* Config - 2D Configuration (steht unter Umständen nicht in jeder WLED Version zur Verfügung):
+  * zum Beispiel 0.13.3 (ohne) und  0.14.0-b4 (mit)
   * Strip or panel: 2D Matrix
   * Panel dimensions: 7 x 7
   * Serpentine aktivieren
